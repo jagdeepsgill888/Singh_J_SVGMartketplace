@@ -1,0 +1,36 @@
+<svg id="microwaveIcon" xmlns="http://www.w3.org/2000/svg" width="486.84" height="248.67" viewBox="0 0 486.84 248.67">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #353535;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="main">
+    <path id="shell" class="cls-1" d="M743.4,319h-364a25.07,25.07,0,0,0-25,25V541.67a25.07,25.07,0,0,0,25,25h364a25.07,25.07,0,0,0,25-25V344A25.07,25.07,0,0,0,743.4,319ZM707.56,513.77a25.07,25.07,0,0,1-25,25H426.08a25.07,25.07,0,0,1-25-25V380.4a25.07,25.07,0,0,1,25-25H682.56a25.07,25.07,0,0,1,25,25Z" transform="translate(-353.94 -318.5)"/>
+  </g>
+  <g id="side">
+    <rect id="side-2" data-name="side" class="cls-2" x="379.57" y="0.5" width="107.27" height="247.67" rx="25"/>
+    <rect id="display_screen" class="cls-3" x="386.69" y="35.05" width="93.02" height="53.49" rx="25"/>
+    <g id="dail">
+      <rect id="square_9" class="cls-3" x="456.46" y="193.7" width="23.26" height="23.26"/>
+      <rect id="square_8" class="cls-3" x="421.58" y="193.7" width="23.26" height="23.26"/>
+      <rect id="square_7" class="cls-3" x="386.69" y="193.7" width="23.26" height="23.26"/>
+      <rect id="square_6" class="cls-3" x="456.46" y="161.14" width="23.26" height="23.26"/>
+      <rect id="square_5" class="cls-3" x="421.58" y="161.14" width="23.26" height="23.26"/>
+      <rect id="square_4" class="cls-3" x="386.69" y="161.14" width="23.26" height="23.26"/>
+      <rect id="square_3" class="cls-3" x="456.46" y="128.58" width="23.26" height="23.26"/>
+      <rect id="square_2" class="cls-3" x="421.58" y="128.58" width="23.26" height="23.26"/>
+      <rect id="square_1" class="cls-3" x="386.69" y="128.58" width="23.26" height="23.26"/>
+    </g>
+  </g>
+</svg>
