@@ -60,6 +60,20 @@ img
 
 .cat-hover:hover {fill: #8092A4;}
 
+/* icons ID */
+#book
+{
+	width: 150px;
+	margin-left: 35px;
+}
+
+#artIcon  /*fix the art icon by grouping in AI */
+{
+	width: 150px;
+	margin-top: 5px;
+	margin-left: 40px;
+
+}
 
 
 
