@@ -36,14 +36,33 @@ img
 
 
 
-.cat img {
+.cat svg {
 	width: 170px;
+	height: 150px;
 	margin-left: 20px;
 }
 
 .cat h3 {
 	text-align: center;
 }
+
+
+/* icons style hover */
+/*.cls-1:hover {fill: #8092A4;}
+
+.cls-3:hover {fill: #8092A4;}
+.cls-4:hover {fill: #8092A4;}
+.cls-5:hover {fill: #8092A4;}
+.cls-6:hover {fill: #8092A4;}
+.cls-7:hover {fill: #8092A4;}
+.cls-8:hover {fill: #8092A4;}
+.cls-9:hover {fill: #8092A4;}*/
+
+.cat-hover:hover {fill: #8092A4;}
+
+
+
+
 
 #siteContainer {
   margin: 0 auto;
