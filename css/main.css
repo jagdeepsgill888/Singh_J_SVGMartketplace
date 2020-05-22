@@ -10,6 +10,11 @@ img
 	width: 100%;
 }
 
+h3
+{
+	color: #000;
+
+}
 
 .hidden {
   display: none;
@@ -59,6 +64,13 @@ img
 .cls-9:hover {fill: #8092A4;}*/
 
 .cat-hover:hover {fill: #8092A4;}
+
+
+
+.selected
+{
+  border-style: dotted;
+}
 
 /* icons ID */
 #book
