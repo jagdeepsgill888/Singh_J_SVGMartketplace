@@ -83,12 +83,17 @@ h3
 	margin-left: 35px;
 }
 
-#artIcon  /*fix the art icon by grouping in AI */
+#art  /*fix the art icon by grouping in AI */
 {
 	width: 150px;
 	margin-top: 5px;
 	margin-left: 40px;
 
+}
+
+#artIcon h3
+{
+	margin-top: 12px;
 }
 
 
