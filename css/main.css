@@ -51,11 +51,15 @@ h3
 	text-align: center;
 }
 
+.cat p {
+	text-align: center;
+}
+
 
 /* icons style hover */
-/*.cls-1:hover {fill: #8092A4;}
+/*.music-1:hover {fill: #8092A4;}
 
-.cls-3:hover {fill: #8092A4;}
+.music-3:hover {fill: #8092A4;}
 .cls-4:hover {fill: #8092A4;}
 .cls-5:hover {fill: #8092A4;}
 .cls-6:hover {fill: #8092A4;}
