@@ -1,3 +1,7 @@
+body{
+	background-color: white;
+}
+
 main div
 {
 	width: 43%;
@@ -10,10 +14,18 @@ img
 	width: 100%;
 }
 
+
+
 h3
 {
-	color: #000;
+	color : #348699;
 
+
+}
+
+p
+{
+	color: #000;
 }
 
 .hidden {
@@ -67,7 +79,7 @@ h3
 .cls-8:hover {fill: #8092A4;}
 .cls-9:hover {fill: #8092A4;}*/
 
-.cat-hover:hover {fill: #8092A4;}
+.cat-hover:hover {fill: #348699;}
 
 
 
@@ -145,7 +157,7 @@ h3
 }
 
 #mainNav ul li a {
-  font-family: "Myriad Pro";
+  font-family: "Myriad Pro", Arial;
   font-size: 12px;
   color: #364e51;
   color: rgb(54, 78, 81);
@@ -157,14 +169,14 @@ h3
 #mainNav ul li a:hover {
   padding: 5px;
   background-color: #ccc;
-  text-decoration: underline;
+  text-decoration: none;
   color: #fff;
 }
 
 #heading h2
 {
 	text-align: center;
-	color: #364e51;
+	color: #348699;
 }
 
 
