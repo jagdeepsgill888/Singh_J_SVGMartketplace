@@ -1,32 +1,24 @@
-# HW2 SVG Marketplace 
+# SVG Marketplace
 
 # Description
 
-MMED-1055-01-20S HW on Using SVG Artwork and JavaScript Events.
- 
+MMED-1055-01-20S HW on Using SVG Artwork and JavaScript Events,
+CSS, github and HTML .
+
+# Requirements
+
+10 SVG icons, icon description, CSS interactions transitions to change the icon’s
+appearance (eg hover ),selected class , logging IDs in console with JS.
+
 # Installation
 
-There is no installation process for this repo.Simply pull down and start working!
+There is no installation process for this repo. Simply pull down and start working!
 
 # MIT License
 
 Copyright (c) [2020][jagdeep singh]
-<a href="#">This is a Link</a>
+<a href="https://youtu.be/Uj1ykZWtPYI">Important</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+in the Software
