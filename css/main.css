@@ -79,7 +79,10 @@ p
 .cls-8:hover {fill: #8092A4;}
 .cls-9:hover {fill: #8092A4;}*/
 
-.cat-hover:hover {fill: #348699;}
+.cat-hover:hover
+{
+	fill: #348699;
+}
 
 
 
