@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body{
 	background-color: white;
+	transition: background 0.3s linear;
+}
+
+
+body.darkTheme {
+	background-color: #292C35;
+}
+
+body.darkTheme p {
+	color: #1f505b;
 }
 
 main div
@@ -13,7 +25,6 @@ img
 {
 	width: 100%;
 }
-
 
 
 h3
@@ -39,6 +50,7 @@ p
 	grid-template-columns: repeat(3,240px) ;
 	grid-auto-rows: 270px;
 	grid-gap: 30px;
+	margin-bottom: 40px;
 
 }
 
@@ -82,13 +94,24 @@ p
 .cat-hover:hover
 {
 	fill: #348699;
+
 }
 
+.bounce-3 {
+        animation-name: bounce-3;
+        animation-timing-function: ease;
+    }
+@keyframes bounce-3 {
+        4%   { transform: translateY(40px); }
+				17%  { transform: translateY(-10px); }
+        30%  { transform: translateY(0px); }
+    }
 
 
 .selected
 {
   border-style: dotted;
+	border-color: #348699;
 }
 
 /* icons ID */
@@ -105,6 +128,13 @@ p
 	margin-left: 40px;
 
 }
+
+svg:hover {
+	animation-duration: 1.3s;
+  animation-iteration-count:infinite;
+	transform-origin: bottom;
+}
+
 
 #artIcon h3
 {
@@ -162,8 +192,7 @@ p
 #mainNav ul li a {
   font-family: "Myriad Pro", Arial;
   font-size: 12px;
-  color: #364e51;
-  color: rgb(54, 78, 81);
+  color: #5e7173;
 	text-decoration: none;
   padding: 5px;
 
@@ -173,7 +202,7 @@ p
   padding: 5px;
   background-color: #ccc;
   text-decoration: none;
-  color: #fff;
+  color: #348699;
 }
 
 #heading h2
@@ -201,6 +230,13 @@ p
 	float: left;
 }
 
+#address h4
+{
+	font-size: 14px;
+	color: #5e7173;
+	font-weight: normal;
+}
+
 #footerNav
 {
 	float: right;
@@ -220,7 +256,7 @@ p
 
 
 #footerNav ul li a {
-  color : #000;
+  color : #5e7173;
 	text-decoration: none;
   padding: 5px;
 
@@ -230,5 +266,54 @@ p
   padding: 5px;
   background-color: #ccc;
   text-decoration: none;
-  color: #fff;
+  color: #348699;
+}
+
+
+
+/* theme toggle */
+.label {
+	display: flex;
+	border-radius: 61px;
+	width: 50px;
+	height: 26px;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	background-color: #000;
+	padding: 5px;
+	margin-left: 80%;
+	margin-bottom: 5px;
+}
+
+.fa-moon {
+  color: #bbcacd;
+	padding-left: 3px;
+}
+
+.fa-sun {
+  color: #f39c12;
+	padding-right: 3px;
+}
+
+.toggle {
+	opacity: 0;
+	position: absolute;
+}
+
+.toggle:checked + .label .circle {
+	background-color: #348699;
+	transform: translateX(26px);
+}
+
+
+.circle {
+	width: 22px;
+	height: 22px;
+	border-radius: 50px;
+	left: 5px;
+	top: 7px;
+	position: absolute;
+	background-color: #bbcacd;
+	transition: transform 0.2s linear;
 }

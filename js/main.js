@@ -1,6 +1,8 @@
 (()=> {
   console.log('fired!');
 
+  const checkbox = document.getElementById('toggle');// toggle dark /light button
+
 // this is where you select elements here
  let theBagdes = document.querySelectorAll(".cat"),
     svgBadge=document.querySelector("svg");
@@ -18,11 +20,11 @@
 
 
   //  function  clearSelection() {
-  //  } 
+  //  }
 
-
-
-
+ checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('darkTheme');
+  }); // change background colour from from light to dark theme
 
 
 
